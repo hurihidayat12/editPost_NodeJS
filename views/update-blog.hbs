@@ -51,7 +51,7 @@
           <div>
         <p class="h2 text-center mb-2 mt-3">UPDATE POST BLOG</p>
 
-        <form class="form-control-lg"  value="index" method="post">
+        <form class="form-control-lg" action="/update-blog/{{index}}" method="post">
           <div class="mb-3">
             <label for="input-title" class="form-label">Title</label>
             <input name="editTitle" type="text" class="border-warning form-control" id="input-title" value="{{blog.title}}">

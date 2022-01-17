@@ -19,8 +19,6 @@ let blogs = [ {
     }
 ]
 
-
-
 function getfullTime(time) {
     let month = ["Januari", "Februari", "Maret", "April", "Mei", "Juni",
     "Juli", "Agustus", "September", "Oktobebr", "November", "Desember"];
@@ -50,7 +48,6 @@ app.get('/blog', function(request, response){
         return {
             ...data,
             isLogin: isLogin,
-            
         }
     })
 
@@ -75,7 +72,6 @@ app.get('/blog-detail/:id', function(request, response){
 app.get('/add-blog', function(request, response){
     response.render('add-blog');
 });
-
 
 //post blog
 app.post('/blog', function(request, response){

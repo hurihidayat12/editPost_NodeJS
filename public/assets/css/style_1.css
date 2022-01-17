@@ -476,15 +476,18 @@ nav .right{
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
-    background: #dbdbdb;
+    background: rgb(211, 126, 22);
+    color: #ececec;
+  
   }
   
   .blog .blog-list .btn-group .btn-post {
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
-    background: #ec4d37;
-    color: #fff;
+    background: rgb(211, 126, 22);
+    color: #5a1b1b;
+ 
   }
   
   .blog .blog-list h1 a {
